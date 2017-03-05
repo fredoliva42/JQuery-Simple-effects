@@ -1,4 +1,4 @@
-#initially-hidden {
+.initially-hidden {
   display: none;
 }
 
@@ -8,5 +8,18 @@
 }
 
 .clickable: hover {
+  text-decoration: underline;
+}
+
+.secondary-hidden {
+  display: none;
+}
+
+.clickable2 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable2: hover {
   text-decoration: underline;
 }
